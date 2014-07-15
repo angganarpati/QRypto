@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+			<Button
+			    android:id="@+id/next"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_marginTop="5dp"
+			    android:layout_below="@+id/repeatPassword"
+			    android:text="@string/next" />
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/passwordBox"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="10dp"
+			    android:text="@string/pass_again" />
+
+			<EditText
+			    android:id="@+id/repeatPassword"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textView2"
+			    android:ems="10"
+			    android:hint="@string/pass_again"
+			    android:inputType="textPassword" />
+
+			<TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textView1"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="20dp"
+			    android:text="@string/pass" />
+
+			<EditText
+			    android:id="@+id/passwordBox"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textView3"
+			    android:ems="10"
+			    android:hint="@string/pass"
+			    android:inputType="textPassword" />
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/imageView1"
+			    android:gravity="center"
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+			    android:text="@string/setup_explain" />
+
+			<ImageView
+			    android:id="@+id/imageView1"
+			    android:layout_width="80sp"
+			    android:layout_height="80sp"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true"
+			    android:layout_marginTop="20dp"
+			    android:contentDescription="@string/desc"
+			    android:src="@drawable/ic_action_accounts" />
+
+
+</RelativeLayout>

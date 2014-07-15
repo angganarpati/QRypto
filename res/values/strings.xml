@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="app_name">QR-ypto</string>
+    
+    <!-- button description-->
+    <string name="forgot">Forgot Passphrase</string>
+    <string name="login">Login</string>
+    
+    <!-- dialog -->
+    <string name="confirmation">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- setup login description -->
+    <string name="next">Next</string>
+    <string name="forgot_msg">Are you sure? \n\n All keystore will be delete permanently</string>
+    <string name="login_gretting">Welcome User Please insert passphrase</string>
+    
+    <!-- management header decription -->
+    <string name="opsi">Option</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="contacts">Contact</string>
+    
+    <!-- management new contact description -->
+    <string name="desc">Description </string>
+   	<string name="select_input">Select Input Method</string>
+   	<string name="generate">Generate</string> 
+   	<string name="import_qr">Import from QR Code</string>
+   	
+   	<!-- management child description -->
+    <string name="send_qr">Send Key</string>
+    
+    <!-- setup passphrase description -->
+    <string name="pass">Insert Passphrase</string>
+    <string name="pass_again">Insert Passphrase Again</string>
+    <string name="setup_explain">Create new passphrase</string>
+    <string name="not_match">Passphrase not match</string>
+    
+    <!-- main menu description -->
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="key">Key Management</string>
+    <string name="exit">Exit</string>
+    
+    <!-- decrypt main description -->
+    <string name="cipher_not_found"></string>
+    <string name="cipher_text_show">Ciphertext :</string>
+    <string name="error_decrypt">Unable to decrypt</string>
+    
+    <!-- plain text display -->
+    <string name="plaintext_desc">Plaintext :</string>
+    <string name="plaintext"></string>
+    <string name="goto_encrypt">Create new encrypted message</string>
+    <string name="sender">Sender : </string>
+    <string name="name">Name</string>
+    
+    <!-- encrypt main -->
+    <string name="send">Send</string>
+    
+    <!-- generaly used -->
+    <string name="error">unknown error !!!</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="invalid_key"></string>
+    <string name="delete">Delete Forever</string>
+    <string name="other">Other</string>
+    <string name="spacer"> </string>
+    <string name="validate">Are you sure?</string>
+    <string name="feature">Feature :</string>
+    
+    <string name="edit">Edit</string>
+    <string name="perma">Permanent Key</string>
+    <string name="reset_keystore">Delete Keystore Forever</string>
+    
+    <string name="generate_explain">Tap Begin.\n\nThen tap and swipe wildly around the screen. As you create random data the progress bar will fill.\n\nOnce complete your contact should use Add to scan the QR code generated. Once complete both phones will be in sync.</string>
+	<string name="input">Manual Input</string>
+	<string name="add">Scan</string>
+	<string name="save">Save</string>
+	<string name="begin">begin</string>
+	<string name="ok">OK</string>
+	<string name="password_input">Set Password</string>
+    <string name="password_input_msg">Please set the new Keystore password</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_send_email">"Send By…"</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Activity titles -->    
+    <string name="activity_location_found">Location Found</string>
+    <string name="activity_encrypt">Encrypt Message</string>
+    <string name="activity_decrypt">Decrypt Message</string>
+    <string name="activity_add_contact">Add new contact</string>
+    <string name="activity_key_management">Key Management</string>
+    <string name="activity_generate">Key Generator</string>
+    <string name="activity_setup">Login</string>
+    <string name="activity_display_contact">Display contact</string>
+    
+    <!-- Action Bar action items -->
+    <string name="action_import">Import Key</string>
+    <string name="action_decrypt">Decrypt QR Code</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Encrypt</item>
+        <item >Decrypt</item>
+        <item >Key Management</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_phone</item>
+        <item>@drawable/ic_action_secure</item>
+        <item>@drawable/ic_action_not_secure</item>
+        <item>@drawable/ic_action_add_group</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    
+</resources>
